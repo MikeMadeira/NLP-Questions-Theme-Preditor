@@ -1,0 +1,11 @@
+1 - Use SVM to obtain better results
+
+2 - You can have two different models, one for the coarse and a different one for the fine-grained taxonomy.
+
+3 - Don't forget to add to the ***first line*** of your report the following information:
+
+    APPROACH: X
+
+    X = "Rule based" or "Similarity Measures" or N-grams or "MLClassification" or hybrid. 
+
+    If you don't add this information I will assume a "ML Classification" approach (default).
