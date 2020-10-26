@@ -18,6 +18,7 @@ print(pipe['count'].transform(corpus).toarray())
 print(pipe['tfid'].idf_)
 
 tfidf = pipe.transform(corpus).toarray()
+print(pipe['count'].get_feature_names())
 print(tfidf)
 
 df = pd.DataFrame(tfidf)
